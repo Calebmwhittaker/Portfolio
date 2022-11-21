@@ -1,0 +1,14 @@
+/*Title CSS*/
+
+#title-page {
+  background-image: url(/images/Portfolio.jpg);
+  height: 500px;
+  width: 100%;
+  background-repeat: no-repeat;
+  opacity: 80%;
+}
+/*TEST*/
+/* * {
+  outline: 1px solid red;
+  outline-offset: -1px;
+} */
