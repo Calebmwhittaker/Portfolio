@@ -7,7 +7,16 @@ const About = (props) => {
       className="about-wrapper"
     >
       <div className="about-header">
-        <h1 style={{ margin: "30px" }}>About Me</h1>
+        <h1
+          style={{
+            margin: "30px",
+            backgroundColor: "#1b283b",
+            color: "white",
+            padding: "15px 0px",
+          }}
+        >
+          Meet Caleb
+        </h1>
       </div>
       <div
         style={{ justifyContent: "space-around", textAlign: "left" }}

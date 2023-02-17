@@ -1,7 +1,7 @@
-* {
+/* * {
     outline: 1px solid red;
     outline-offset: 1px solid red;
-}
+} */
 
 body, html {
     height: 100%;
@@ -19,15 +19,19 @@ header {
     background-size: cover;
 }
 
-.hero-text {
-    text-align: center;
-  color: white;
-}
-
 p {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
 }
 
 li {
     font-size: 1.1rem;
 }
+
+@media (min-width: 800px) {
+    .hero-text {
+        position: absolute;
+        top: 40%;
+        left: 10%;
+        width: 60%
+          }
+} 

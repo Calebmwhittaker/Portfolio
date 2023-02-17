@@ -32,7 +32,7 @@ const Projects = (props) => {
           }}
           className="card col-xl-3 col-12 project-1"
         >
-          <h4>MaddMarketing Solutions</h4>
+          <h2>MaddMarketing Solutions</h2>
           <img
             style={{
               width: "100%",
@@ -58,7 +58,7 @@ const Projects = (props) => {
           }}
           className="card col-xl-3 col-12 project-2"
         >
-          <h4>Countries API Project</h4>
+          <h2>Countries API Project</h2>
           <img
             style={{
               width: "100%",
@@ -84,7 +84,7 @@ const Projects = (props) => {
           }}
           className=" card col-xl-3 col-12 project-3"
         >
-          <h4>Gym Workout Web Scraper</h4>
+          <h2>Gym Workout Web Scraper</h2>
           <img
             style={{
               width: "100%",

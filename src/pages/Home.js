@@ -1,22 +1,52 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import Header from "../parts/header/Header.js";
 
-const Home = () => {
+const Home = (props) => {
+  const [count, setCount] = useState(0);
+  useEffect(() => {
+    const interval = setInterval(() => {
+      if (count < 2) {
+        setCount(count + 1);
+      } else {
+        setCount(0);
+      }
+    }, 3000);
+
+    return () => clearInterval(interval);
+  });
+  const titles = ["Web Developer", "Scientist", "Programmer"];
   return (
     <div id="home-page" className="home-wrapper">
       <Header />
       <div className="hero-background">
-        <div
-          style={{ position: "absolute", top: "43%", left: "20%" }}
-          className="hero-text"
-        >
-          <h1>I am Caleb Whittaker</h1>
-          <p>I'm a self-taught Web Developer</p>
-          <a href="#contact-page-wrapper">
-            <button style={{ marginBottom: "15px" }} className="btn btn-light">
-              Contact me
-            </button>
-          </a>
+        <div className="hero-text row m-auto">
+          <div
+            style={{
+              textAlign: "center",
+              position: "absolute",
+              top: "35%",
+            }}
+          >
+            <h2 style={{ textAlign: "center", color: "white" }}>
+              <span
+                style={{
+                  fontSize: "60px",
+                  display: "block",
+                  marginBottom: "20px",
+                }}
+              >
+                {titles[count]}
+              </span>
+              Hi! I'm Caleb, a self-taught Front End Web Developer from
+              Michigan. I help others make their ideas become reality by
+              developing modern sites that are accessible to everyone.{" "}
+            </h2>
+            <a href="#contact-page-wrapper">
+              <button style={{ margin: "15px" }} className="btn btn-light">
+                Contact me
+              </button>
+            </a>
+          </div>
         </div>
       </div>
     </div>

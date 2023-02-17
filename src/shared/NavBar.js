@@ -3,41 +3,21 @@ import "../assets/styles/NavBar.css";
 
 const NavBar = ({ profile }) => {
   return (
-    // <nav
-    //   style={{
-    //     width: "50%",
-    //     flexGrow: "0.8",
-    //     display: "flex",
-    //     justifyContent: "center",
-    //   }}
-    // >
-    //   <ul
-    //     style={{
-    //       display: "flex",
-    //       alignItems: "center",
-    //       padding: "0px",
-    //       width: "40%",
-    //       justifyContent: "space-around",
-    //     }}
-    //   >
-    //     <li>Home</li>
-    //     <li>About</li>
-    //     <li>Resume</li>
-    //     <li>Projects</li>
-    //     <li>Contact</li>
-    //   </ul>
-    // </nav>
-    <nav className="navbar navbar-expand-md fixed-top">
+    <nav
+      style={{ backgroundColor: "#000000" }}
+      className="navbar navbar-expand-lg fixed-top"
+    >
       <div className="container-fluid">
         <img
           style={{
             borderRadius: "50px",
-            width: "90px",
+            width: "80px",
           }}
           src={profile}
           alt="Profile"
         />
         <button
+          style={{ backgroundColor: "gray" }}
           className="navbar-toggler"
           type="button"
           data-bs-toggle="offcanvas"
@@ -45,23 +25,24 @@ const NavBar = ({ profile }) => {
           aria-controls="offcanvasNavbar"
           aria-label="menu"
         >
-          <span className="navbar-toggler-icon"></span>
+          <span className="navbar-toggler-icon navbar-dark"></span>
         </button>
         <div
-          className="offcanvas offcanvas-end"
+          className="offcanvas offcanvas-end text-bg-dark"
           tabIndex="-1"
           id="offcanvasNavbar"
           aria-labelledby="offcanvasNavbarLabel"
         >
           <div className="offcanvas-header">
             <h5
-              style={{ color: "#000000" }}
+              style={{ color: "white" }}
               className="offcanvas-title"
-              id="offcanvasNavbarLabel"
+              id="offcanvasDark"
             >
               Menu
             </h5>
             <button
+              style={{ backgroundColor: "white" }}
               type="button"
               className="btn-close"
               data-bs-dismiss="offcanvas"
@@ -69,16 +50,9 @@ const NavBar = ({ profile }) => {
             ></button>
           </div>
           <div className="offcanvas-body">
-            <ul
-              style={{ color: "white" }}
-              className="navbar-nav justify-content-end flex-grow-1 pe-3"
-            >
+            <ul className="navbar-nav justify-content-end flex-grow-1 pe-3">
               <li className="nav-item">
-                <a
-                  className="nav-link active"
-                  aria-current="page"
-                  href="#home-page"
-                >
+                <a className="nav-link" aria-current="page" href="#home-page">
                   Home
                 </a>
               </li>
@@ -88,17 +62,13 @@ const NavBar = ({ profile }) => {
                 </a>
               </li>
               <li className="nav-item">
-                <a
-                  className="nav-link active"
-                  aria-current="page"
-                  href="#resume-page"
-                >
+                <a className="nav-link" aria-current="page" href="#resume-page">
                   Resume
                 </a>
               </li>
               <li className="nav-item">
                 <a
-                  className="nav-link active"
+                  className="nav-link"
                   aria-current="page"
                   href="#projects-page"
                 >
@@ -107,7 +77,7 @@ const NavBar = ({ profile }) => {
               </li>
               <li className="nav-item">
                 <a
-                  className="nav-link active"
+                  className="nav-link"
                   aria-current="page"
                   href="#contact-page"
                 >

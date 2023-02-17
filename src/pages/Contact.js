@@ -1,3 +1,5 @@
+import { display } from "@mui/system";
+
 const Contact = (props) => {
   const { profile, email, phone, linked, twitter, github } = props.contactData;
   return (
@@ -29,15 +31,39 @@ const Contact = (props) => {
         <p>
           <b>Telephone Number</b>: {phone}
         </p>
-        <p>
-          <b>LinkedIn</b>: {linked}
-        </p>
-        <p>
-          <b>Twitter</b>: {twitter}
-        </p>
-        <p>
-          <b>Github</b>: {github}
-        </p>
+        <ul
+          style={{
+            display: "flex",
+            justifyContent: "space-around",
+            width: "30%",
+            margin: "0 auto",
+          }}
+        >
+          <li>
+            <a href={linked} aria-label="link">
+              <i
+                style={{ color: "white", fontSize: "1.5rem" }}
+                className="fa-brands fa-linkedin"
+              ></i>
+            </a>
+          </li>
+          <li>
+            <a href={twitter} aria-label="link">
+              <i
+                style={{ color: "white", fontSize: "1.5rem" }}
+                className="fa-brands fa-twitter"
+              ></i>
+            </a>
+          </li>
+          <li>
+            <a href={github} aria-label="link">
+              <i
+                style={{ color: "white", fontSize: "1.5rem" }}
+                className="fa-brands fa-github"
+              />
+            </a>
+          </li>
+        </ul>
       </div>
       <div className="col-xl-4 col-12 contact-image">
         <img
