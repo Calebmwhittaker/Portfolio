@@ -18,7 +18,7 @@ const App = () => {
     education: "Bachelors of Biochemistry, SVSU",
     age: getAge(),
     fullName: "Caleb Whittaker",
-    bio: "I am a recent biochemistry graduate who is interested in front-end web development. For the past 9 months, I have learned semantic HTML, responsive web design with CSS3, and modern JavaScript from various sources. In the past month I have built some projects with vanilla JavaScript and with the framework, React. I believe that my time as a lab technician will allow me to demonstrate my problem-solving skills and my ability to handle difficult tasks. I am interested in developing personal apps for public use that everyone can enjoy and find helpful.",
+    bio: "I am a recent biochemistry graduate who is interested in front-end web development. For the past 9 months, I have learned semantic HTML, responsive web design with CSS3, and modern JavaScript from various sources. In the past month I have built some projects with vanilla JavaScript and with the framework, React. I believe my time as a lab technician has allowed me to develop my problem-solving skills and my ability to handle difficult tasks. I am interested in developing personal apps/websites for the general public that everyone can enjoy.",
     profile: profile,
   };
   const projectsData = {
@@ -38,7 +38,7 @@ const App = () => {
     <div className="app">
       <Home />
       <About aboutData={aboutData} />
-      <Resume />
+      {/* <Resume /> */}
       <Projects projectsData={projectsData} />
       <Contact contactData={contactData} />
       <Footer />

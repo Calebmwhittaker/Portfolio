@@ -9,6 +9,8 @@ const Contact = (props) => {
         color: "#ffffff",
         justifyContent: "space-around",
         textAlign: "center",
+        padding: "30px 0px",
+        width: "100%",
       }}
       className="row m-auto contact-wrapper"
       id="contact-page-wrapper"
@@ -16,10 +18,12 @@ const Contact = (props) => {
       <h1
         style={{
           textAlign: "center",
-          padding: "10px",
+          padding: "10px 0px",
           backgroundColor: "#ffffff",
           color: "#000000",
-          width: "94%",
+          borderRadius: "5px",
+          width: "93.5%",
+          margin: " 0px auto 30px auto",
         }}
       >
         Contact Me
@@ -66,13 +70,13 @@ const Contact = (props) => {
         </ul>
       </div>
       <div className="col-xl-4 col-12 contact-image">
-        <img
+        {/* <img
           className="col-xl-12 col-6 contact-profile"
           style={{ display: "inline-block", margin: "30px 0px" }}
           src={profile}
           alt="profile"
-        />
-        <h1 style={{ marginBottom: "30px" }} className="col-12">
+        /> */}
+        <h1 style={{ margin: "30px 0px 30px 0px" }} className="col-12">
           Thank you for your time!
         </h1>
       </div>

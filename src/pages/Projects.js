@@ -15,7 +15,8 @@ const Projects = (props) => {
           margin: " 0px auto 30px auto",
           backgroundColor: "#ffffff",
           padding: "10px 0px",
-          width: "94%",
+          width: "93.5%",
+          borderRadius: "5px",
         }}
       >
         Projects

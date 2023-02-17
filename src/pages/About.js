@@ -9,10 +9,12 @@ const About = (props) => {
       <div className="about-header">
         <h1
           style={{
-            margin: "30px",
             backgroundColor: "#1b283b",
             color: "white",
-            padding: "15px 0px",
+            margin: " 20px auto 30px auto",
+            padding: "10px 0px",
+            width: "94%",
+            borderRadius: "5px",
           }}
         >
           Meet Caleb

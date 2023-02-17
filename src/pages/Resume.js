@@ -8,7 +8,18 @@ const Resume = (props) => {
       }}
       className="row m-auto resume-wrapper"
     >
-      <h1 style={{ margin: "30px 0px" }}>Resume</h1>
+      <h1
+        style={{
+          margin: "30px auto",
+          backgroundColor: "white",
+          color: "black",
+          padding: "10px 0px",
+          width: "90%",
+          borderRadius: "5px",
+        }}
+      >
+        Resume
+      </h1>
       <div
         style={{ height: "500px" }}
         className="col-xl-6 col-12 resume-left-side"
