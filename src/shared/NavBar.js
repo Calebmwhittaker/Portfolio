@@ -62,25 +62,12 @@ const NavBar = ({ profile }) => {
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" aria-current="page" href="#resume-page">
-                  Resume
-                </a>
-              </li>
-              <li className="nav-item">
-                <a
-                  className="nav-link"
-                  aria-current="page"
-                  href="#projects-page"
-                >
+                <a className="nav-link" href="#projects-page">
                   Projects
                 </a>
               </li>
               <li className="nav-item">
-                <a
-                  className="nav-link"
-                  aria-current="page"
-                  href="#contact-page"
-                >
+                <a className="nav-link" href="#contact-page">
                   Contact
                 </a>
               </li>

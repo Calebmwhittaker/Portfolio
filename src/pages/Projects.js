@@ -9,6 +9,7 @@ const Projects = (props) => {
         color: "#000000",
       }}
       className="projects-page-wrapper"
+      id="projects-page"
     >
       <h1
         style={{
@@ -50,6 +51,14 @@ const Projects = (props) => {
             learned how to use Bootstrap to increase my efficiency and maximize
             my output.
           </p>
+          <a
+            href="https://github.com/Calebmwhittaker/Countries-API-Project"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ width: "116px", margin: "0 auto" }}
+          >
+            <button className="btn btn-dark">Github Code</button>
+          </a>
         </div>
         <div
           style={{
@@ -76,6 +85,14 @@ const Projects = (props) => {
             pull data from an API. This project also taught me how to use hooks
             such as useState and useEffect in React.
           </p>
+          <a
+            href="https://github.com/Calebmwhittaker/MADDMarketing-Solutions"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ width: "116px", margin: "0 auto" }}
+          >
+            <button className="btn btn-dark">Github Code</button>
+          </a>
         </div>
         <div
           style={{

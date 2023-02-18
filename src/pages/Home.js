@@ -1,8 +1,10 @@
 import React, { useState, useEffect } from "react";
 import Header from "../parts/header/Header.js";
+import resumePDF from "../assets/pdf/Resume.pdf";
 
 const Home = (props) => {
   const [count, setCount] = useState(0);
+  const [resume, setResume] = useState(false);
   useEffect(() => {
     const interval = setInterval(() => {
       if (count < 2) {
@@ -41,9 +43,14 @@ const Home = (props) => {
               Michigan. I help others make their ideas become reality by
               developing modern sites that are accessible to everyone.{" "}
             </h2>
-            <a href="#contact-page-wrapper">
+            <a href="#contact-page">
               <button style={{ margin: "15px" }} className="btn btn-light">
                 Contact me
+              </button>
+            </a>
+            <a href={resumePDF} download="Resume.pdf">
+              <button className="btn btn-light" type="submit">
+                Download Resume
               </button>
             </a>
           </div>

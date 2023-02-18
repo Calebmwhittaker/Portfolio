@@ -1,6 +1,6 @@
 import React from "react";
 import NavBar from "../../shared/NavBar.js";
-import profile from "../../assets/images/profile.jpeg";
+import profile from "../../assets/images/profile.webp";
 
 const Header = () => {
   return (

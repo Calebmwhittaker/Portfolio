@@ -1,18 +1,18 @@
-/* * {
+* {
     outline: 1px solid red;
     outline-offset: 1px solid red;
-} */
+}
 
 body, html {
     height: 100%;
 }
 
-header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/hero-background.png")
-}
+/* header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/hero-background.webp")
+} */
 
 .hero-background {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/hero-background.png");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/hero-background.webp");
     height: 50rem;
     background-position: center;
     background-repeat: no-repeat;
@@ -25,6 +25,15 @@ p {
 
 li {
     font-size: 1.1rem;
+}
+
+i {
+    padding: 5px
+}
+
+i:hover {
+    background-color: gray;
+    border-radius: 5px;
 }
 
 @media (min-width: 800px) {

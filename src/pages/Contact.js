@@ -13,7 +13,7 @@ const Contact = (props) => {
         width: "100%",
       }}
       className="row m-auto contact-wrapper"
-      id="contact-page-wrapper"
+      id="contact-page"
     >
       <h1
         style={{
@@ -47,7 +47,7 @@ const Contact = (props) => {
             <a href={linked} aria-label="link">
               <i
                 style={{ color: "white", fontSize: "1.5rem" }}
-                className="fa-brands fa-linkedin"
+                className="linkedIn fa-brands fa-linkedin"
               ></i>
             </a>
           </li>
@@ -55,7 +55,7 @@ const Contact = (props) => {
             <a href={twitter} aria-label="link">
               <i
                 style={{ color: "white", fontSize: "1.5rem" }}
-                className="fa-brands fa-twitter"
+                className="twitter fa-brands fa-twitter"
               ></i>
             </a>
           </li>
@@ -63,7 +63,7 @@ const Contact = (props) => {
             <a href={github} aria-label="link">
               <i
                 style={{ color: "white", fontSize: "1.5rem" }}
-                className="fa-brands fa-github"
+                className="github fa-brands fa-github"
               />
             </a>
           </li>

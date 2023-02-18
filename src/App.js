@@ -6,10 +6,10 @@ import Resume from "./pages/Resume.js";
 import Contact from "./pages/Contact.js";
 import Footer from "./parts/footer/Footer.js";
 import getAge from "./utilities/getAge.js";
-import profile from "./assets/images/profile2.jpeg";
-import project1 from "./assets/images/MaddMarketing-Solutions.PNG";
-import project2 from "./assets/images/Countries-API.PNG";
-import project3 from "./assets/images/coming-soon.jpg";
+import profile from "./assets/images/profile2.webp";
+import project1 from "./assets/images/MaddMarketing-Solutions.webp";
+import project2 from "./assets/images/Countries-API.webp";
+import project3 from "./assets/images/coming-soon.webp";
 import Projects from "./pages/Projects";
 
 const App = () => {
