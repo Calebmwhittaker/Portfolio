@@ -43,12 +43,21 @@ const Home = (props) => {
               Michigan. I help others make their ideas become reality by
               developing modern sites that are accessible to everyone.{" "}
             </h2>
-            <a href="#contact-page">
-              <button style={{ margin: "15px" }} className="btn btn-light">
+            <a
+              href="#contact-page"
+              style={{
+                borderRadius: "5px",
+              }}
+            >
+              <button style={{}} className="btn btn-light">
                 Contact me
               </button>
             </a>
-            <a href={resumePDF} download="Resume.pdf">
+            <a
+              href={resumePDF}
+              download="Resume.pdf"
+              style={{ marginLeft: "10px", borderRadius: "5px" }}
+            >
               <button className="btn btn-light" type="submit">
                 Download Resume
               </button>

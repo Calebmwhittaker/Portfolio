@@ -1,15 +1,16 @@
 import { GoogleMap, useLoadScript } from "@react-google-maps/api";
 const Contact = (props) => {
   const { email, phone, linked, twitter, github } = props.contactData;
+  // const MY_KEY = process.env.REACT_APP_GOOGLE_MAPS_API_KEY;
   const { isLoaded } = useLoadScript({
-    googleMapsApiKey: process.env.REACT_APP_GOOGLE_MAPS_API_KEY,
+    googleMapsApiKey: "AIzaSyDH8JQ2FREviihvJqJTfwdhjdcxSjxWIa4",
   });
   const Map = () => {
     return (
       <GoogleMap
         zoom={10}
-        center={{ lat: 43.5949250642613, lng: -83.88834151847749 }}
-        mapContainerClassName="map-container"
+        center={{ lat: 44, lng: -80 }}
+        mapContainerClassName=""
       ></GoogleMap>
     );
   };

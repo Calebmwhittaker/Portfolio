@@ -2,7 +2,7 @@ import { GoogleMap, useLoadScript } from "@react-google-maps/api";
 const Contact = (props) => {
   const { email, phone, linked, twitter, github } = props.contactData;
   const { isLoaded } = useLoadScript({
-    googleMapsApiKey: process.env.REACT_APP_GOOGLE_MAPS_API_KEY,
+    googleMapsApiKey: process.env.PUBLIC_URL,
   });
   const Map = () => {
     return (

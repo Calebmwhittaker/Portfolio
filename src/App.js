@@ -2,7 +2,6 @@ import React from "react";
 import "./assets/styles/App.css";
 import Home from "./pages/Home.js";
 import About from "./pages/About.js";
-import Resume from "./pages/Resume.js";
 import Contact from "./pages/Contact.js";
 import Footer from "./parts/footer/Footer.js";
 import getAge from "./utilities/getAge.js";
