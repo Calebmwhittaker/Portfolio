@@ -4,7 +4,7 @@ import "../assets/styles/NavBar.css";
 const NavBar = ({ profile }) => {
   return (
     <nav
-      style={{ backgroundColor: "#000000" }}
+      style={{ backgroundColor: "#1b283b" }}
       className="navbar navbar-expand-lg fixed-top"
     >
       <div className="container-fluid">
@@ -25,7 +25,7 @@ const NavBar = ({ profile }) => {
           aria-controls="offcanvasNavbar"
           aria-label="menu"
         >
-          <span className="navbar-toggler-icon navbar-dark"></span>
+          <span className="navbar-toggler-icon"></span>
         </button>
         <div
           className="offcanvas offcanvas-end text-bg-dark"

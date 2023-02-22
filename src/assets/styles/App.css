@@ -7,12 +7,8 @@ body, html {
     height: 100%;
 }
 
-/* header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/hero-background.webp")
-} */
-
 .hero-background {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/hero-background.webp");
+    background-color: #1b283b;
     height: 50rem;
     background-position: center;
     background-repeat: no-repeat;

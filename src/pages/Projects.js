@@ -5,7 +5,7 @@ const Projects = (props) => {
       style={{
         textAlign: "center",
         padding: "30px 0px 60px 0px",
-        backgroundColor: "#7f7f7f",
+        backgroundColor: "#1b283b",
         color: "#000000",
       }}
       className="projects-page-wrapper"

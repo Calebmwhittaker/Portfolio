@@ -18,8 +18,8 @@ const Contact = (props) => {
   return (
     <div
       style={{
-        background: "linear-gradient(rgba(0, 0, 0, 0.5), #1b283b)",
-        color: "#ffffff",
+        backgroundColor: "#ffffff",
+        color: "#000000",
         justifyContent: "space-around",
         textAlign: "center",
         padding: "30px 0px",
@@ -32,8 +32,8 @@ const Contact = (props) => {
         style={{
           textAlign: "center",
           padding: "10px 0px",
-          backgroundColor: "#ffffff",
-          color: "#000000",
+          backgroundColor: "#1b283b",
+          color: "#ffffff",
           borderRadius: "5px",
           width: "93.5%",
           margin: " 0px auto 30px auto",
@@ -41,46 +41,56 @@ const Contact = (props) => {
       >
         Contact Me
       </h1>
-      <div className="col-xl-6 col-12 contact-info">
-        <p style={{ marginTop: "20px" }}>
-          <b>Email</b>: {email}
-        </p>
-        <p>
-          <b>Telephone Number</b>: {phone}
-        </p>
-        <ul
-          style={{
-            display: "flex",
-            justifyContent: "space-around",
-            width: "30%",
-            margin: "0 auto",
-          }}
-        >
-          <li>
-            <a href={linked} aria-label="link">
-              <i
-                style={{ color: "white", fontSize: "1.5rem" }}
-                className="linkedIn fa-brands fa-linkedin"
-              ></i>
-            </a>
-          </li>
-          <li>
-            <a href={twitter} aria-label="link">
-              <i
-                style={{ color: "white", fontSize: "1.5rem" }}
-                className="twitter fa-brands fa-twitter"
-              ></i>
-            </a>
-          </li>
-          <li>
-            <a href={github} aria-label="link">
-              <i
-                style={{ color: "white", fontSize: "1.5rem" }}
-                className="github fa-brands fa-github"
-              />
-            </a>
-          </li>
-        </ul>
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+        }}
+        className="col-xl-6 col-12 contact-info"
+      >
+        <div>
+          <p style={{ marginTop: "20px" }}>
+            <b>Email</b>: {email}
+          </p>
+          <p>
+            <b>Telephone Number</b>: {phone}
+          </p>
+          <ul
+            style={{
+              display: "flex",
+              justifyContent: "space-around",
+              width: "30%",
+              margin: "0 auto",
+              paddingLeft: "0px",
+            }}
+          >
+            <li>
+              <a href={linked} aria-label="link">
+                <i
+                  style={{ color: "black", fontSize: "1.5rem" }}
+                  className="linkedIn fa-brands fa-linkedin"
+                ></i>
+              </a>
+            </li>
+            <li>
+              <a href={twitter} aria-label="link">
+                <i
+                  style={{ color: "black", fontSize: "1.5rem" }}
+                  className="twitter fa-brands fa-twitter"
+                ></i>
+              </a>
+            </li>
+            <li>
+              <a href={github} aria-label="link">
+                <i
+                  style={{ color: "black", fontSize: "1.5rem" }}
+                  className="github fa-brands fa-github"
+                />
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
       <div className="col-xl-4 col-12 contact-image">
         {/* <img

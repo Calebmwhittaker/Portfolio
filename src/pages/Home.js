@@ -4,7 +4,6 @@ import resumePDF from "../assets/pdf/Resume.pdf";
 
 const Home = (props) => {
   const [count, setCount] = useState(0);
-  const [resume, setResume] = useState(false);
   useEffect(() => {
     const interval = setInterval(() => {
       if (count < 2) {
@@ -29,7 +28,13 @@ const Home = (props) => {
               top: "35%",
             }}
           >
-            <h2 style={{ textAlign: "center", color: "white" }}>
+            <h2
+              style={{
+                textAlign: "center",
+                color: "white",
+                marginBottom: "30px",
+              }}
+            >
               <span
                 style={{
                   fontSize: "60px",
@@ -49,9 +54,7 @@ const Home = (props) => {
                 borderRadius: "5px",
               }}
             >
-              <button style={{}} className="btn btn-light">
-                Contact me
-              </button>
+              <button className="btn btn-light">Contact me</button>
             </a>
             <a
               href={resumePDF}
@@ -59,7 +62,7 @@ const Home = (props) => {
               style={{ marginLeft: "10px", borderRadius: "5px" }}
             >
               <button className="btn btn-light" type="submit">
-                Download Resume
+                Download Resume <i className="fa-solid fa-download"></i>
               </button>
             </a>
           </div>
