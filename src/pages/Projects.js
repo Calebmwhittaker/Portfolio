@@ -4,7 +4,7 @@ const Projects = (props) => {
     <div
       style={{
         textAlign: "center",
-        padding: "30px 0px 0px 0px",
+        padding: "30px 0px 10px 0px",
         backgroundColor: "#1b283b",
         color: "#000000",
       }}
@@ -28,7 +28,7 @@ const Projects = (props) => {
       >
         <div
           style={{
-            marginBottom: "30px",
+            margin: "0px 10px 30px 10px",
             padding: "30px",
             width: "380px",
           }}
