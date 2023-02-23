@@ -52,7 +52,8 @@ const Projects = (props) => {
             my output.
           </p>
           <a
-            href="https://github.com/Calebmwhittaker/Countries-API-Project"
+            href="
+            https://github.com/Calebmwhittaker/MADDMarketing-Solutions"
             target="_blank"
             rel="noopener noreferrer"
             style={{ width: "116px", margin: "0 auto" }}
@@ -86,7 +87,7 @@ const Projects = (props) => {
             such as useState and useEffect in React.
           </p>
           <a
-            href="https://github.com/Calebmwhittaker/MADDMarketing-Solutions"
+            href="https://github.com/Calebmwhittaker/Countries-API-Project"
             target="_blank"
             rel="noopener noreferrer"
             style={{ width: "116px", margin: "0 auto" }}
