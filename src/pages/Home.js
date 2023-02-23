@@ -41,6 +41,7 @@ const Home = () => {
                   display: "block",
                   marginBottom: "20px",
                 }}
+                className="home-titles"
               >
                 {titles[count]}
               </span>
