@@ -3,7 +3,7 @@ const About = (props) => {
   return (
     <div
       id="about-page"
-      style={{ textAlign: "center", paddingBottom: "30px" }}
+      style={{ textAlign: "center", padding: "30px 0px 20px 0px" }}
       className="about-wrapper"
     >
       <div className="about-header">
@@ -11,7 +11,7 @@ const About = (props) => {
           style={{
             backgroundColor: "#1b283b",
             color: "white",
-            margin: " 20px auto 30px auto",
+            margin: " 0px auto 20px auto",
             padding: "10px 0px",
             width: "94%",
             borderRadius: "5px",
@@ -25,7 +25,7 @@ const About = (props) => {
         className="row m-auto about-info"
       >
         <div
-          style={{ padding: "50px" }}
+          style={{ padding: "10px 50px 50px 50px" }}
           className="col-xl-6 col-sm-12 about-text"
         >
           <p>

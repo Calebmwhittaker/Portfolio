@@ -37,11 +37,17 @@ i:hover {
     height: 50vh
 }
 
-@media (min-width: 800px) {
+@media (min-width: 4000px) {
     .hero-text {
         position: absolute;
         top: 40%;
         left: 10%;
         width: 60%
           }
-} 
+    .about-header h1 {
+        margin: 20px auto 30px auto,
+    }
+    #project-3-card-body {
+        margin: 0px 0px 10px 30px
+    }
+}

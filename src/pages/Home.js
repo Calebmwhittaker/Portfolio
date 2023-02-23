@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import Header from "../parts/header/Header.js";
 import resumePDF from "../assets/pdf/Resume.pdf";
 
-const Home = (props) => {
+const Home = () => {
   const [count, setCount] = useState(0);
   useEffect(() => {
     const interval = setInterval(() => {
@@ -37,12 +37,12 @@ const Home = (props) => {
             >
               <span
                 style={{
-                  fontSize: "60px",
+                  fontSize: "48px",
                   display: "block",
                   marginBottom: "20px",
                 }}
               >
-                {titles[count]}
+                {titles[0]}
               </span>
               Hi! I'm Caleb, a self-taught Front End Web Developer from
               Michigan. I help others make their ideas become reality by

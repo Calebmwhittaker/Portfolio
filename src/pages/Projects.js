@@ -4,7 +4,7 @@ const Projects = (props) => {
     <div
       style={{
         textAlign: "center",
-        padding: "30px 0px 60px 0px",
+        padding: "30px 0px 0px 0px",
         backgroundColor: "#1b283b",
         color: "#000000",
       }}
@@ -28,9 +28,9 @@ const Projects = (props) => {
       >
         <div
           style={{
-            margin: "0px 10px 30px 10px",
+            marginBottom: "30px",
             padding: "30px",
-            width: "450px",
+            width: "380px",
           }}
           className="card col-xl-3 col-12 project-1"
         >
@@ -64,7 +64,7 @@ const Projects = (props) => {
           style={{
             margin: "0px 10px 30px 10px",
             padding: "30px",
-            width: "450px",
+            width: "380px",
           }}
           className="card col-xl-3 col-12 project-2"
         >
@@ -91,16 +91,18 @@ const Projects = (props) => {
             rel="noopener noreferrer"
             style={{ width: "116px", margin: "0 auto" }}
           >
-            <button className="btn btn-dark">Github Code</button>
+            <button style={{ color: "white" }} className="btn btn-dark">
+              Github Code
+            </button>
           </a>
         </div>
         <div
           style={{
             margin: "0px 10px 30px 10px",
             padding: "30px",
-            width: "450px",
+            width: "380px",
           }}
-          className=" card col-xl-3 col-12 project-3"
+          className="card col-xl-3 col-12 project-3"
         >
           <h2>Gym Workout Web Scraper</h2>
           <img
