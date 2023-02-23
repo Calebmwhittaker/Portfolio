@@ -42,7 +42,7 @@ const Home = () => {
                   marginBottom: "20px",
                 }}
               >
-                {titles[0]}
+                {titles[count]}
               </span>
               Hi! I'm Caleb, a self-taught Front End Web Developer from
               Michigan. I help others make their ideas become reality by
