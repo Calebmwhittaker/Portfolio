@@ -17,7 +17,8 @@ const Projects = (props) => {
     style: projectStyles,
     title: "MaddMarketing Solutions",
     src: project1,
-    link: "https://github.com/Calebmwhittaker/MADDMarketing-Solutions",
+    code: "https://github.com/Calebmwhittaker/MADDMarketing-Solutions",
+    site: "http://mms-clone.calebmwhittaker.online/",
   };
   const project2Data = {
     className: "card col-xl-3 col-12 project-2",
@@ -26,9 +27,10 @@ const Projects = (props) => {
     pull data from an API. This project also taught me how to use hooks
     such as useState and useEffect in React.`,
     style: projectStyles,
-    title: "Countries API Project",
+    title: `World Countries API Project`,
     src: project2,
-    link: "https://github.com/Calebmwhittaker/Countries-API-Project",
+    code: "https://github.com/Calebmwhittaker/Countries-API-Project",
+    site: "http://www.countries-api.calebmwhittaker.online/",
   };
   const project3Data = {
     className: "card col-xl-3 col-12 project-3",

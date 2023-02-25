@@ -46,11 +46,12 @@ const About = (props) => {
         </div>
         <div
           style={{ display: "flex", alignItems: "center" }}
-          className="col-xl-4 col-6 about-image"
+          className="col-lg-4 col-md-6 col-8 about-image"
         >
           <img
             style={{
-              width: "100%",
+              width: "70%",
+              margin: "0 auto",
               borderRadius: "25px",
             }}
             src={profile}

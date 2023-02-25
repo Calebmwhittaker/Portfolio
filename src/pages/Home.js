@@ -25,7 +25,6 @@ const Home = () => {
             style={{
               textAlign: "center",
               position: "absolute",
-              top: "35%",
             }}
           >
             <h2
