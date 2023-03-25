@@ -1,4 +1,4 @@
-import React, { useLayoutEffect, useState } from "react";
+import { useLayoutEffect, useState } from "react";
 /*Grabbed from here: 
 https://stackoverflow.com/questions/19014250/rerender-view-on-browser-resize-with-react */
 /*Used to rerender the page after a resize
